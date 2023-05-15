@@ -6,7 +6,7 @@ Web
 - Qual navegador está usando
 	- Muitas vezes, o USER-AGENT pode ser modificado. Dessa maneira, pode-se verificar também o tipo do navegador pela posição dos cabeçalhos no request.
 por exemplo:
-Firefox 112..0.2 (64-bits) tem a ordem de cabeçalho:
+	- Firefox 112..0.2 (64-bits) tem a ordem de cabeçalho:
 Host:	echo.opera.com
 User-Agent:	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0
 Accept:	text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
@@ -19,7 +19,7 @@ Sec-Fetch-Mode:	navigate
 Sec-Fetch-Site:	none
 Sec-Fetch-User:	?1
 
-Firefox 40.0 tem a seguinte ordem:
+	- Firefox 40.0 tem a seguinte ordem:
 Host:	echo.opera.com
 User-Agent:	Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0
 Accept:	text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
@@ -27,8 +27,7 @@ Accept-Language:	en-US,en;q=0.5
 Accept-Encoding:	gzip, deflate
 Connection:	keep-alive
 
-Chrome 107.0.5304.104 (64 bits) tem a seguinte ordem:
-
+	- Chrome 107.0.5304.104 (64 bits) tem a seguinte ordem:
 Host:	echo.opera.com
 Sec-Ch-Ua:	"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"
 Sec-Ch-Ua-Mobile:	?0
